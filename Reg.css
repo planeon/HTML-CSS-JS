@@ -1,0 +1,86 @@
+.MainMenu {
+  margin-top: -12px;
+  width: 100%;
+  height: 50px;
+  background-color: #DCB5B5;
+  border-radius: 5px; }
+
+.MainMenu a:after {
+  display: block;
+  content: "";
+  width: 0%;
+  background-color: #E31C1C;
+  transition: width 0.3s ease-in-out; }
+
+.MainMenu a:hover {
+  color: #E31C1C;
+  font-weight: bold; }
+
+ul li {
+  float: left;
+  list-style: none;
+  font: 16px Helvetica, sans-serif; }
+
+ul li a {
+  text-decoration: none;
+  color: #000000;
+  display: block;
+  height: 68px;
+  padding: 0px 80px;
+  line-height: 50px; }
+
+.Circle {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #7C7878;
+  margin-top: 5px; }
+
+.Register {
+  width: 400px;
+  height: 500px;
+  margin: 70px auto;
+  border-radius: 2em;
+  background-color: #E09595; }
+  .Register h1 {
+    margin: 5px 3.9em;
+    font: 16px; }
+
+input[name=Email] {
+  margin-top: 65px; }
+
+input {
+  margin: 20px 95px;
+  width: 210px;
+  height: 20px;
+  border-radius: 5px;
+  border: 0; }
+
+button {
+  width: 300px;
+  margin: 30px 50px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #737DDB;
+  font-size: 16px; }
+
+button:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #737DDB;
+  box-shadow: inset 0 0 0 3px #737DDB; }
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none; }
+
+.container_signin {
+  margin-left: 140px; }
+  .container_signin a {
+    text-decoration: none;
+    color: blue; }
+
+.Vector {
+  padding: 0px 140px; }
+
+/*# sourceMappingURL=Reg.css.map */

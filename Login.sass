@@ -1,0 +1,99 @@
+$font-stack: Helvetica, sans-serif 
+$primary-color: #DCB5B5
+$colorA: #000000
+$colorAvatar: #7C7878
+$colorReg: #E09595
+$colorButton : #737DDB
+$colorMenu : #E31C1C
+$font-size: 16px
+
+.MainMenu
+ margin-top: -12px
+ width: 100%
+ height: 50px
+ background-color: $primary-color
+ border-radius: 5px
+
+.MainMenu  a:after 
+    display: block
+    content: ""
+    height: 2px
+    width: 0%
+    background-color: $colorMenu
+    transition: width 0.3s ease-in-out
+.MainMenu a:hover:after,a:focus:after 
+    width: 100% 
+
+.MainMenu a:hover
+ color: $colorMenu
+ font-weight: bold
+
+
+ul li
+ float: left 
+ list-style: none
+ font: $font-size $font-stack 
+
+ul li a 
+ text-decoration: none
+ color: $colorA
+ display: block
+ height: 68px
+ padding: 0px 80px
+ line-height: 50px
+ 
+
+.Circle
+ border-radius: 50%
+ width: 40px
+ height: 40px
+ background-color: $colorAvatar
+ margin-top: 5px
+
+
+.Login
+ width: 400px
+ height: 400px
+ margin: 120px auto
+ border-radius: 2em
+ background-color: $colorReg
+ h1
+  margin: 30px 2.6em
+  font: $font-size
+
+
+input[name=Email]
+    margin-top: 20px
+input
+    margin: 20px 95px
+    width: 210px
+    height: 20px 
+    border-radius: 5px
+    border: 0
+
+
+button
+  width: 300px  
+  margin: 30px 50px
+  height: 40px 
+  border-radius: 10px
+  border: 0
+  background-color: $colorButton
+  font-size: $font-size
+  margin-top: 50px
+    
+button:hover
+    background: rgba(0,0,0,0)
+    color: $colorButton
+    box-shadow: inset 0 0 0 3px $colorButton
+
+
+
+input[type=text]:focus, input[type=password]:focus 
+    background-color: #ddd
+    outline: none
+
+.Vector 
+ padding: 0px 150px
+
+ 

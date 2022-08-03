@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="Auto.css">
+		<link rel="stylesheet" href="Auto.js">
+<title>Auto select</title>
+
+</head>
+
+<body bgcolor="DFCFCF" >
+
+
+<header>
+
+<div class="MainMenu">
+<ul>
+	<li><a href="#"><div class="Circle"></div></a></li>
+	<li><a href="Auto.html">Головна</a></li>
+	<li><a href="#">Нові Авто</a></li>
+	<li><a href="#">Вживані Авто</a></li>
+	<li><a href="#">Топ</a></li>
+	<li><a href="F:\AutoSelect\Reg\Regestration.html">Вхід/Реєстрація</a></li>
+</ul>
+</div>
+
+</header>
+
+
+<main>
+	
+<div class="container">
+  <svg viewBox="0 0 960 300">
+    <symbol id="s-text">
+      <text text-anchor="middle" x="30%" y="25%">Auto Select</text>
+    </symbol>
+
+    <g class = "g-ants">
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+      <use xlink:href="#s-text" class="text-copy"></use>
+    </g>
+  </svg>
+</div>
+
+
+<div class="Search">
+
+<label for="" class='Lbl'>Марка</label>
+
+<select type="text" class="MenuSearch" name='Mark' placeholder="Марка">
+  <option value="Null"></option>
+   <option value="Mazda">Mazda</option>
+   <option value="Reno">Reno</option>
+   <option value="Ford">Ford</option>
+   <option value="Honda">Honda</option>
+   <option value="Hyndai">Hyndai</option>
+   <option value="Nissan">Nissan</option>
+</select><br>
+
+
+
+<label for="" class='Lbl'>Модель</label>
+<select type="text"class="MenuSearch" name='Model' placeholder="Модель">
+   <option value="null" ></option>
+   <option value="C-8" >C-8</option>
+   <option value="Mustang">Mustang</option>
+   <option value="GT-R">GT-R</option>
+   <option value="Almero">Almero</option>
+   <option value="Civic">Civic</option>
+</select><br>
+
+
+<label for="" class='Lbl'>Рік</label>
+<input type="text" class="MenuSearch" name='from1' placeholder="Від">
+<input type="text" class="MenuSearch" name='before2' placeholder="До"><br>
+
+
+<label for="" class='Lbl'>Віртість</label>
+<input type="text" class="MenuSearch" name='from2' placeholder="Від">
+<input type="text" class="MenuSearch" name='before2' placeholder="До"><br>
+
+<button id='Serc'>Пошук</button>
+
+</div> 
+
+
+<div class="communication">
+  <a href='' name="teleg">Telegram</a><br>
+    <a href='' name="Facebook">Facebook</a><br>
+      <a href='' name='Inst'>Instagram</a><br>
+
+
+</div>
+
+<div id="map"></div>
+
+
+
+
+<div class="adverst" id='adversting'>
+ <a href=""><img src="F:\AutoSelect\Photo\1xpartners_banner_300х300.gif" width="250px" height='250px'></a>
+
+</div>
+
+
+</main>
+
+<script type="text/javascript" src="https://developers.ria.com/auto/search?api_key=CvcY2w6zUV7yVtxHAxuDSRto8rDpkHXZfJiajbqg"></script>
+
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script src="Auto.js"></script>
+</body>
+</html>
